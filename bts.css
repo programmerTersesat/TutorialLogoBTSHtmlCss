@@ -1,0 +1,32 @@
+.trapezoid {
+    border-bottom: 50px solid #000000;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 125px;
+    transform: rotate(90deg);
+    position: absolute;
+}
+
+.trapezoid-2 {
+    border-bottom: 50px solid #000000;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 125px;
+    transform: rotate(-90deg);
+    margin-left: 3%;
+    position: absolute;
+}
+
+.shape{
+    position: relative;
+    padding-top: 15%
+}
+
+h1{
+    position: absolute;
+    top: 135%;
+    left: 4.4%;
+    font-family: 'Arial Black'
+}
